@@ -43,7 +43,7 @@ jobs:
       # Send a console message at completion.
       - name: Notify
         if: always()
-          run: |
-            echo "Hello ${{github.actor}}. You pushed to ${{github.repository}} at $(date)."
-            env:
-              date = 10/13/2023
+        run: |
+          echo "Hello ${{github.actor}}. You pushed to ${{github.repository}} at $(date)."
+          env:
+            date = 10/13/2023
