@@ -38,7 +38,7 @@ jobs:
 
       # Run the linter.
       - name: Linting
-        run: cd backend/node_modules && npm run lint
+        run: cd backend && npm run lint
 
       # Send a console message at completion.
       - name: Notify
