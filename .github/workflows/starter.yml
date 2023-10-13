@@ -34,7 +34,7 @@ jobs:
 
       # Run the tests.
       - name: Testing
-        run: npm test
+        run: cd backend && npm test
 
       # Run the linter.
       - name: Linting
