@@ -19,7 +19,7 @@ jobs:
       node-version: [16, 18]
 
     steps:
-      # Check out the code from the repository.
+      # Check out the code from the repository..
       - name: Checkout code
         uses: actions/checkout@v3
       # Set up a Node.js environment using the specified node version.
