@@ -15,8 +15,8 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-    matrix:
-      node-version: [16, 18]
+      matrix:
+        node-version: [16, 18]
 
     steps:
       # Check out the code from the repository..
