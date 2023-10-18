@@ -37,12 +37,12 @@ jobs:
         run: cd backend && npm test
 
       # Initialize the linter.
-      - name: Initialize ESLint Config
-        run: cd backend && npm init @eslint/config
+      - name: Install ESLint
+        run: cd backend && npm install eslint --save-dev
 
       # Run the linter.
       - name: Linting
-        run: cd backend && npm run eslintrc.js
+        run: cd backend && npx eslint .
 
       # Send a console message at completion.
       - name: Notify
