@@ -42,7 +42,7 @@ jobs:
 
       # Run the linter.
       - name: Linting
-        run: cd backend && npm run lint
+        run: cd backend && npm run eslintrc.js
 
       # Send a console message at completion.
       - name: Notify
